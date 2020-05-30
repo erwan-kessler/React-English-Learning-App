@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Audio-W",
+    "slug": "Audio-W",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "english.project",
+      "versionCode": 1
+    },
+    "version": "0.0.1a",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/logo_with_text.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFAA14"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": [
+            "galio-framework"
+          ]
+        }
+      }
+    },
+    "description": "A project made by EK and JL for the english class"
+  }
+}
